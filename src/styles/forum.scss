@@ -1,0 +1,26 @@
+.login-txt{
+  font-size: 12px;
+}
+.el-tabs__header{
+  margin: 0;
+}
+.header{
+  padding-top: 10px;
+}
+.content{
+  width: 1200px;
+  margin: 0 auto;
+}
+.con-left{
+  color:#333;
+  font-size: 14px;
+  li{
+    line-height: 32px;
+    text-align: center;
+  }
+  li:hover{
+    cursor: pointer;
+    background-color: #f44444;
+    color: #fff;
+  }
+}
