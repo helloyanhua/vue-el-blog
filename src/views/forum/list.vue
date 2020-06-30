@@ -92,7 +92,22 @@
               </li>
             </ul>
           </el-col>
-          <el-col :span="3">3</el-col>
+          <el-col :span="3">
+            <ul>
+              <li>
+                <i class="el-icon-edit" size="large"></i>
+                <span>写技术论坛</span>
+              </li>
+              <li>
+                <i class="el-icon-edit-outline" size="large"></i>
+                <span>写模型</span>
+              </li>
+              <li>
+                <i class="el-icon-trophy" size="large"></i>
+                <span>专家申请</span>
+              </li>
+            </ul>
+          </el-col>
         </el-row>
       </el-main>
     </el-container>
