@@ -4,7 +4,6 @@ import router from "./router";
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import "./styles/index.scss";
-
 Vue.use(ElementUI);
 //标题
 router.beforeEach((to, from, next) => {

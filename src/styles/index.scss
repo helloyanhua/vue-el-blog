@@ -82,9 +82,22 @@ div:focus {
 .align{
   text-align: center;
 }
+.txt-right{
+  text-align: right;
+}
 .row{
   display: flex;
   flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.just-start{
+  justify-content: flex-start;
+}
+.just-center{
+    justify-content: center;
 }
 .just-end{
   justify-content: flex-end;
@@ -104,17 +117,57 @@ div:focus {
   justify-content: flex-start;
   align-items: center;
 }
+.just-around-align-center{
+    justify-content: space-around;
+    align-items: center;
+}
 .bg-white{
   background-color: #fff;
 }
 .color-3{
   color: #333;
 }
+.color-red{
+  color: #f00;
+}
+.mg-t-5{
+  margin-top: 5px;
+}
+.mg-t-10{
+  margin-top: 10px;
+}
+.mg-t-20{
+    margin-top: 20px;
+}
+.mg-r-5{
+  margin-right: 5px;
+}
 .mg-r-20{
   margin-right: 20px;
 }
 .pd-20{
   padding: 20px;
+}
+.pd-t-10{
+  padding-top: 10px;
+}
+.pd-t-15{
+    padding-top: 15px;
+}
+.pd-t-20{
+    padding-top: 20px;
+}
+.pd-b-10{
+    padding-bottom: 10px;;
+}
+.pd-b-20{
+    padding-bottom: 20px;;
+}
+.pd-tb-10{
+  padding: 10px 0;
+}
+.pd-tb-20{
+  padding: 20px 0;
 }
 .pd-l-5{
   padding-left: 5px;
@@ -124,6 +177,9 @@ div:focus {
 }
 .pd-l-20{
   padding-left: 20px;
+}
+.pd-r-10{
+  padding-right: 10px;
 }
 .pd-r-20{
   padding-right: 20px;

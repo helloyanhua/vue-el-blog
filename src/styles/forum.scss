@@ -4,19 +4,14 @@
 .el-tabs__header{
   margin: 0;
 }
-.header{
-  height: 60px;
-  line-height: 60px;
-  .logo{
-    width: 128px;
-    height: 32px;
-  }
-}
+// .header{
+//   padding-top: 10px;
+// }
 .content{
   width: 1200px;
   margin: 0 auto;
 }
-.con-left{
+.classify-list{
   color:#333;
   font-size: 14px;
   li{
@@ -25,54 +20,189 @@
   }
   li:hover{
     cursor: pointer;
-    background-color: #f44444;
+    background-color: #409EFF;
     color: #fff;
   }
 }
-.con-center{
-  .top{
-    padding-bottom: 10px;
-    .title{
-      display: inline-block;
-      width: 80%;
-      .txt{
+.classify-item-list{
+    .top{
+      padding-bottom: 10px;
+      .title{
         display: inline-block;
-        width: 100%;
-        font-size: 18px;
-        white-space: nowrap; 
-        overflow: hidden;
-        text-overflow:ellipsis;
+        width: 80%;
+        .txt{
+          display: inline-block;
+          width: 100%;
+          font-size: 18px;
+          white-space: nowrap; 
+          overflow: hidden;
+          text-overflow:ellipsis;
+        }
       }
     }
-  }
-  .center{
-    color: #8a8a8a;
-    font-size: 14px;
-    padding: 0 20px;
-  }
-  .bottom{
-    padding: 10px 20px 20px;
-    .author{
-      width: 30px;
-      height: 30px;
-      border-radius: 2px;
-      .img{
+    .center{
+      color: #8a8a8a;
+      font-size: 14px;
+      padding: 0 20px;
+    }
+    .bottom{
+      padding: 10px 20px 20px;
+      .author{
         width: 30px;
         height: 30px;
         border-radius: 2px;
+        .img{
+          width: 30px;
+          height: 30px;
+          border-radius: 2px;
+        }
+      }
+      .name{
+        color: #3d3d3d;
+      }
+      .time{
+        color: #8a8a8a;
       }
     }
-    .name{
-      color: #3d3d3d;
-    }
-    .time{
-      color: #8a8a8a;
-    }
+  }
+  .authorInfo:hover{
+    cursor:pointer
   }
   .el-divider--horizontal{
     margin: 0;
   }
-}
-.authorInfo:hover{
-  cursor:pointer
-}
+  .detail-header{
+      .title{
+          font-size: 20px;
+          color: #222226;
+      }
+      .collect{
+        color: #555666;
+        div{
+          margin-top: 3px;
+        }
+      }
+  }
+  .user-info-card{
+      padding: 20px 10px;
+      .user{
+          .img{
+              width: 50px;
+              height: 50px;
+              border-radius: 3px;
+              vertical-align: middle;
+          }
+      }
+      .number{
+          div{
+              text-align: center;
+          }
+      }
+  }
+  .author{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    .img{
+      width: 30px;
+      height: 30px;
+      border-radius: 2px;
+    }
+  }
+  .article-cont{
+    .section{
+      padding: 10px 0;
+    }
+  }
+  .enclosure{
+    .left{
+      font-size: 12px;
+      .down{
+        color: #868c92;
+      }
+    }
+    .right{
+      font-size: 12px;
+      color: #B4B4B4;
+    }
+    .enclosure-ul{
+      li{
+        width: 200px;
+        background-color: #F5F5F5;
+        font-size: 12px;
+        // padding: 5px 30px 5px 0;
+        margin: 0 5px 5px 0;
+        .picture{
+          width: 30px;
+          height: 30px;
+        }
+        .size{
+          color: #848285;
+        }
+        .pic-right{
+          width: 170px;
+          position: relative;
+        }
+        .download-icon{
+          display: none;
+          position: absolute;
+          right: 20px;
+          top: 9px;
+        }
+        .pic-right:hover{
+          background-color: rgba(0,0,0,0.5);
+          cursor: pointer;
+        }
+        .pic-right:hover .download-icon{
+          display: block;
+        }
+      }
+    }
+  }
+  .comment-box{
+    .sum{
+      color: #8191AD;
+    }
+    .head-img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      padding-right: 20px;
+    }
+    .com-top{
+      font-size: 12px;
+      .name{
+        color: #868c92;
+        padding-right: 20px;
+      }
+      .time{
+        color: #8a8a8a;
+      }
+    }
+    .com-center{
+      font-size: 12px;
+    }
+    .com-bottom{
+      font-size: 12px;
+      color: #409EFF;
+    }
+    .reply{
+      padding-left: 32px;
+      .reply-txt{
+        padding-right: 5px;
+      }
+      .name{
+        color: #409EFF;
+      }
+    }
+    .com-textarea{
+      .title{
+        font-size: 14px;
+        color: #333;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .con-right-top-btns li:hover{
+    cursor: pointer;
+  }
